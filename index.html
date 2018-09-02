@@ -3,19 +3,32 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-        crossorigin="anonymous">
-    <script type="text/javascript" src="js/form-index.js"></script>
-    <script type="text/javascript" src="js/message.js"></script>
-    <script type="text/javascript" src="js/work.js"></script>
-    <link rel="stylesheet" href="craftyslide.css" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat"
+          rel="stylesheet">
+    <link rel="stylesheet"
+          href="reset.css">
+    <link rel="stylesheet"
+          href="style.css">
+    <link rel="stylesheet"
+          href="footer.css">
+    <link rel="stylesheet"
+          href="header.css">
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+          crossorigin="anonymous">
+    <script type="text/javascript"
+            src="js/form-index.js"></script>
+    <script type="text/javascript"
+            src="js/message.js"></script>
+    <script type="text/javascript"
+            src="js/work.js"></script>
+    <link rel="stylesheet"
+          href="craftyslide.css" />
     <title>Real State</title>
 </head>
 
@@ -29,16 +42,20 @@
             <div class="nav-menu">
                 <ul>
                     <li>
-                        <a href="#houses">Casas</a>
+                        <a href="#houses"
+                           class="sliding-link">Casas</a>
                     </li>
                     <li>
-                        <a href="#about-us">Sobre</a>
+                        <a href="#about-us"
+                           class="sliding-link">Sobre</a>
                     </li>
                     <li>
-                        <a href="#contact-us">Contato</a>
+                        <a href="#contact-us"
+                           class="sliding-link">Contato</a>
                     </li>
                     <li>
-                        <a href="#gallery">Galeria</a>
+                        <a href="#gallery"
+                           class="sliding-link">Galeria</a>
                     </li>
                 </ul>
             </div>
@@ -53,10 +70,17 @@
                     <div class="form-body">
                         <form action="#">
                             <label> Deixe suas informações para receber novidades</label>
-                            <input placeholder="Nome" id="name" type="text" />
-                            <input placeholder="E-mail" id="email" type="text" />
-                            <input placeholder="Telefone" id="phone" type="tel" />
-                            <button type="submit" onclick="enviar()">Enviar</button>
+                            <input placeholder="Nome"
+                                   id="name"
+                                   type="text" />
+                            <input placeholder="E-mail"
+                                   id="email"
+                                   type="text" />
+                            <input placeholder="Telefone"
+                                   id="phone"
+                                   type="tel" />
+                            <button type="submit"
+                                    onclick="enviar()">Enviar</button>
                         </form>
                     </div>
                 </div>
@@ -64,26 +88,31 @@
         </section>
     </header>
 
-    <section id="houses" class="houses">
+    <section id="houses"
+             class="houses">
         <div class="house-title">
             <i class="fas fa-angle-right"></i>
             <h1>Destaques</h1>
         </div>
         <div class="house">
             <h1 class="center">R$1.000,00m</h1>
-            <img src="img/house1.jpg" alt="">
+            <img src="img/house1.jpg"
+                 alt="">
         </div>
         <div class="house">
             <h1 class="center">R$800,00m</h1>
-            <img src="img/house2.jpg" alt="">
+            <img src="img/house2.jpg"
+                 alt="">
         </div>
         <div class="house">
             <h1 class="center">R$955,00m</h1>
-            <img src="img/house3.jpg" alt="">
+            <img src="img/house3.jpg"
+                 alt="">
         </div>
     </section>
 
-    <section id="about-us" class="about-us">
+    <section id="about-us"
+             class="about-us">
         <div class="text-about">
             <h1>Sobre nós</h1>
             <p>Com mais de 27 anos de serviços prestados,
@@ -96,8 +125,11 @@
         </div>
         <div class="workus">
             <h1>Trabalhe conosco</h1>
-            <input placeholder="E-mail" type="email" id="email-work" />
-            <button onclick="enviarWork()" type="submit">Enviar</button>
+            <input placeholder="E-mail"
+                   type="email"
+                   id="email-work" />
+            <button onclick="enviarWork()"
+                    type="submit">Enviar</button>
             <p>
                 Envie seu e-mail e entraremos em contato
                 <br> com as vagas disponíveis
@@ -105,47 +137,62 @@
         </div>
     </section>
 
-    <section id="contact-us" class="contact-us">
+    <section id="contact-us"
+             class="contact-us">
         <div class="title-contact">
             <h1>Envie-nos uma mensagem</h1>
             <label></label>
         </div>
         <div class="form-contact">
-            <input placeholder="Nome" id="name-message" type="text" />
-            <input placeholder="Telefone" id="phone-message" type="text" />
-            <input placeholder="Mensagem" id="message" type="text" />
-            <button type="submit" onclick="enviarMessage()">Enviar</button>
+            <input placeholder="Nome"
+                   id="name-message"
+                   type="text" />
+            <input placeholder="Telefone"
+                   id="phone-message"
+                   type="text" />
+            <input placeholder="Mensagem"
+                   id="message"
+                   type="text" />
+            <button type="submit"
+                    onclick="enviarMessage()">Enviar</button>
         </div>
     </section>
 
-    <section id="gallery" class="gallery">
+    <section id="gallery"
+             class="gallery">
         <div class="gallery-title">
             <h1>Galeria</h1>
         </div>
         <div id="slideshow">
             <ul>
                 <li>
-                    <img src="img/house1.jpg" title="Lorem ipsum dolor sit amet" />
+                    <img src="img/house1.jpg"
+                         title="Lorem ipsum dolor sit amet" />
                 </li>
 
                 <li>
-                    <img src="img/house2.jpg" title="Lorem ipsum dolor sit amet" />
+                    <img src="img/house2.jpg"
+                         title="Lorem ipsum dolor sit amet" />
                 </li>
 
                 <li>
-                    <img src="img/house3.jpg" title="Lorem ipsum gallerydolor sit amet" />
+                    <img src="img/house3.jpg"
+                         title="Lorem ipsum gallerydolor sit amet" />
                 </li>
                 <li>
-                    <img src="img/house4.jpg" title="Lorem ipsum gallerydolor sit amet" />
+                    <img src="img/house4.jpg"
+                         title="Lorem ipsum gallerydolor sit amet" />
                 </li>
                 <li>
-                    <img src="img/banner.jpg" title="Lorem ipsum gallerydolor sit amet" />
+                    <img src="img/banner.jpg"
+                         title="Lorem ipsum gallerydolor sit amet" />
                 </li>
             </ul>
         </div>
     </section>
 
-    <section id="info" class="section-footer">
+    <section id="info"
+             class="section-footer">
         <div class="address">
             <h1> Real state</h1>
             <a href="">
@@ -172,11 +219,14 @@
 
     <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
     <script src="js/craftyslide.js"></script>
-    <script type="text/javascript" src="js/footer-form.js"></script>
-    <script src="js/slideNav.js"></script>
     <script>
         $("#slideshow").craftyslide({});
-        window.slide = new SlideNav();
+
+        $(".sliding-link").click(function (e) {
+            e.preventDefault();
+            var aid = $(this).attr("href");
+            $('html,body').animate({ scrollTop: $(aid).offset().top }, 'slow');
+        });
     </script>
 </body>
 
